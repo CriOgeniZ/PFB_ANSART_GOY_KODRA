@@ -1,107 +1,107 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19044.1645; Version 2009; 64bit' Language: 'fr' Physical Memory: 16177 MB
+OS: 'Windows 10 Home; OS build 22000.613; Version 2009; 64bit' Language: 'fr' Physical Memory: 16177 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\UNITY\2020.3.17f1\Editor\Unity.exe
+D:\unity\2019.4.19f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/DRIVE/03_3D/03_GA3/00_PFB/GIT/PFB_ANSART_GOY_KODRA/PFB_ANSART_GOY_KODRA
+C:/Users/alpim/Pictures/PFB/PFB_ANSART_GOY_KODRA/PFB_ANSART_GOY_KODRA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50270
-Successfully changed project path to: D:/DRIVE/03_3D/03_GA3/00_PFB/GIT/PFB_ANSART_GOY_KODRA/PFB_ANSART_GOY_KODRA
-D:/DRIVE/03_3D/03_GA3/00_PFB/GIT/PFB_ANSART_GOY_KODRA/PFB_ANSART_GOY_KODRA
+57133
+Successfully changed project path to: C:/Users/alpim/Pictures/PFB/PFB_ANSART_GOY_KODRA/PFB_ANSART_GOY_KODRA
+C:/Users/alpim/Pictures/PFB/PFB_ANSART_GOY_KODRA/PFB_ANSART_GOY_KODRA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 90.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
-[Subsystems] Discovering subsystems at path D:/UNITY/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/DRIVE/03_3D/03_GA3/00_PFB/GIT/PFB_ANSART_GOY_KODRA/PFB_ANSART_GOY_KODRA/Assets
+[Subsystems] Discovering subsystems at path D:/unity/2019.4.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/alpim/Pictures/PFB/PFB_ANSART_GOY_KODRA/PFB_ANSART_GOY_KODRA/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f10)
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
     Vendor:   
-    VRAM:     8031 MB
-    Driver:   27.21.14.6677
+    VRAM:     5980 MB
+    Driver:   30.0.14.9676
 Initialize mono
-Mono path[0] = 'D:/UNITY/2020.3.17f1/Editor/Data/Managed'
-Mono path[1] = 'D:/UNITY/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/UNITY/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Mono path[0] = 'D:/unity/2019.4.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2019.4.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2019.4.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/UNITY/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001185 seconds.
+Register platform support module: D:/unity/2019.4.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000927 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.241 seconds
+- Completed reload, in  1.137 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2242ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (1137ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (432ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (440ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
+			SetupTypeCache (149ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (192ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (196ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
+				RefreshPlugins (76ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004735 seconds.
+Registered in 0.004739 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.469 seconds
+- Completed reload, in  1.507 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1470ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (1508ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1264ms)
-			LoadAssemblies (109ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1299ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (341ms)
+			SetupTypeCache (347ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (639ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (660ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
-				BeforeProcessingInitializeOnLoad (86ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (85ms)
 				ProcessInitializeOnLoadAttributes (328ms)
-				ProcessInitializeOnLoadMethodAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (158ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3866 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3867 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 184.0 MB.
 System memory in use after: 184.2 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4311.
-Total: 3.440500 ms (FindLiveObjects: 0.325800 ms CreateObjectMapping: 0.144100 ms MarkObjects: 2.909500 ms  DeleteObjects: 0.060100 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4312.
+Total: 5.379500 ms (FindLiveObjects: 0.779600 ms CreateObjectMapping: 0.410000 ms MarkObjects: 4.091000 ms  DeleteObjects: 0.097300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,405 +132,1268 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/_FBX/Chouette.fbx
-  artifactKey: Guid(112ebd5b4b018374ca7fb76c3915f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FBX/Chouette.fbx using Guid(112ebd5b4b018374ca7fb76c3915f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+  path: Assets/_MAT/PLATEAU_TABLE.mat
+  artifactKey: Guid(92ddfcca84731c648a954ac20430e1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/PLATEAU_TABLE.mat using Guid(92ddfcca84731c648a954ac20430e1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
- -> (artifact id: '402dcd1d0983af3d149c75df99ae75d0') in 1.908120 seconds 
-  Import took 1.915290 seconds .
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+ -> (artifact id: 'b7c3ccac32921bb5732f82fbf691463c') in 1.800447 seconds 
+  Import took 1.809381 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/_MAT/Chouette.mat
-  artifactKey: Guid(5aef80d38e58fd24b9ee792a1c0783a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MAT/Chouette.mat using Guid(5aef80d38e58fd24b9ee792a1c0783a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993a88044ffc520504736c80ecae8de6') in 0.074140 seconds 
-  Import took 0.079721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.349861 seconds.
-  path: Assets/_PREFAB/Chouette.prefab
-  artifactKey: Guid(630de3d1b3bd8af4ea672fa4228b2646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PREFAB/Chouette.prefab using Guid(630de3d1b3bd8af4ea672fa4228b2646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bb83f788d2f05ab11d026ecc2e45f4') in 0.033478 seconds 
-  Import took 0.039381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9998.246616 seconds.
-  path: Assets/_TXT/lambert1_Base_color.tga
-  artifactKey: Guid(7489b4751aaf77a49902499128bb95ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/lambert1_Base_color.tga using Guid(7489b4751aaf77a49902499128bb95ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77deaad91900c15c0a5df4d1efd9ede') in 0.347743 seconds 
-  Import took 0.500736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/_TXT/lambert1_Mixed_AO.tga
-  artifactKey: Guid(e859f972eebabd34b91667f68153fb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/lambert1_Mixed_AO.tga using Guid(e859f972eebabd34b91667f68153fb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2468bfb1203d3396e6b8d8672f4bf403') in 0.016344 seconds 
-  Import took 0.056661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/_TXT/lambert1_Metallic.tga
-  artifactKey: Guid(ac473579b2acfdc48b35ceb10860d409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/lambert1_Metallic.tga using Guid(ac473579b2acfdc48b35ceb10860d409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d936e12e8f9d56c29e2dac3f35469a7') in 0.037956 seconds 
-  Import took 0.066601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/_TXT/lambert1_Normal_DirectX.tga
-  artifactKey: Guid(4a32d029410c0234ab4e885c46a774f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/lambert1_Normal_DirectX.tga using Guid(4a32d029410c0234ab4e885c46a774f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d33de27580e7f76d697b0f4bece3bb') in 0.040018 seconds 
-  Import took 0.047195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/_TXT/lambert1_Roughness.tga
-  artifactKey: Guid(dc29c228a7b4a0c4ca594bb787161814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/lambert1_Roughness.tga using Guid(dc29c228a7b4a0c4ca594bb787161814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3473673df0c82bbb3d77eb82a3c3aeb') in 0.237833 seconds 
-  Import took 0.246659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.820955 seconds.
-  path: Assets/_TXT
-  artifactKey: Guid(a6b4e2bc445dd234f90176c57c6dc50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT using Guid(a6b4e2bc445dd234f90176c57c6dc50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4423e71cebf01f14891758a59fa177d4') in 0.004876 seconds 
-  Import took 0.051556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 165.917534 seconds.
-  path: Assets/_TXT/Sol_Base_color.tga
-  artifactKey: Guid(294b69c8321fdcb409e5cde58f4e26f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/Sol_Base_color.tga using Guid(294b69c8321fdcb409e5cde58f4e26f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f65596dd0656dac8878b56f3065933f') in 0.028899 seconds 
-  Import took 0.049551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007475 seconds.
-  path: Assets/_TXT/Sol_Base_color.tga
-  artifactKey: Guid(294b69c8321fdcb409e5cde58f4e26f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/Sol_Base_color.tga using Guid(294b69c8321fdcb409e5cde58f4e26f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f65596dd0656dac8878b56f3065933f') in 0.015531 seconds 
-  Import took 0.022682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.183108 seconds.
-  path: Assets/_TXT/Sol_RMO.tga
-  artifactKey: Guid(4f2fb157836848f48a7831d3db98ae12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/Sol_RMO.tga using Guid(4f2fb157836848f48a7831d3db98ae12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417e4ecdae2529259e4aeb343cccb5ec') in 0.021261 seconds 
-  Import took 0.097511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.249261 seconds.
-  path: Assets/_MAT
-  artifactKey: Guid(ebfa9ce476784b6459d580a8805876d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MAT using Guid(ebfa9ce476784b6459d580a8805876d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28809fb75cc1ba78f5e267694393f77c') in 0.007312 seconds 
-  Import took 0.107351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.111723 seconds.
-  path: Assets/_MAT/SHADERZ
-  artifactKey: Guid(248e7de5983ea8f4cb34feaf38e604b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MAT/SHADERZ using Guid(248e7de5983ea8f4cb34feaf38e604b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b410e27afe6701692b0b2706c902aeda') in 0.006981 seconds 
-  Import took 0.054501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.713955 seconds.
+  Time since last request: 0.000371 seconds.
   path: Assets/_MAT/SOL.mat
   artifactKey: Guid(f98da0ada50c280449c7f7bc1208722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MAT/SOL.mat using Guid(f98da0ada50c280449c7f7bc1208722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7be265a7cc10717cb9244a3434280c1') in 0.647167 seconds 
-  Import took 0.680073 seconds .
+Start importing Assets/_MAT/SOL.mat using Guid(f98da0ada50c280449c7f7bc1208722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2ebfaa66e862f80684d26bde88d19d') in 0.044069 seconds 
+  Import took 0.050937 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.743090 seconds.
-  path: Assets/_MAT/MATERIAUX TEST
-  artifactKey: Guid(6088ca3e6fa694141bcc7a8d38fb4f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MAT/MATERIAUX TEST using Guid(6088ca3e6fa694141bcc7a8d38fb4f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb21c73eba407600488ac7f40bafc419') in 0.006581 seconds 
-  Import took 0.014601 seconds .
+  Time since last request: 0.000346 seconds.
+  path: Assets/_MAT/SHADERZ
+  artifactKey: Guid(248e7de5983ea8f4cb34feaf38e604b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/SHADERZ using Guid(248e7de5983ea8f4cb34feaf38e604b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb9723f01a5e74460184144c6e5e9de') in 0.005525 seconds 
+  Import took 0.012043 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 176.434848 seconds.
-  path: Assets/_PREFAB/SOL1_FBX.prefab
-  artifactKey: Guid(bd9f3bdc47fcdea4fb64413e1a448ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PREFAB/SOL1_FBX.prefab using Guid(bd9f3bdc47fcdea4fb64413e1a448ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad8d7266282cd8e69562e9597574cf7') in 0.051285 seconds 
-  Import took 0.060185 seconds .
+  Time since last request: 0.000226 seconds.
+  path: Assets/_MAT/PIED_TABLE.mat
+  artifactKey: Guid(9d2c29b0a932321469436e43c861c11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/PIED_TABLE.mat using Guid(9d2c29b0a932321469436e43c861c11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0698136b8415f8ae9f88152136e91643') in 0.036662 seconds 
+  Import took 0.043780 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.226132 seconds.
-  path: Assets/_PREFAB/SOL2_FBX.prefab
-  artifactKey: Guid(4827f31cb565e2a4a975a8e69b520872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PREFAB/SOL2_FBX.prefab using Guid(4827f31cb565e2a4a975a8e69b520872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472068e9762b1651c798d18a790db31f') in 0.079072 seconds 
-  Import took 0.162522 seconds .
+  Time since last request: 0.000354 seconds.
+  path: Assets/_MAT
+  artifactKey: Guid(ebfa9ce476784b6459d580a8805876d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT using Guid(ebfa9ce476784b6459d580a8805876d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bd21d7f191f73d837ca36bb4f25ef9') in 0.005303 seconds 
+  Import took 0.011921 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.057986 seconds.
-  path: Assets/_PREFAB/SOL3_FBX.prefab
-  artifactKey: Guid(a022069911973a844a3562022ec9f1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PREFAB/SOL3_FBX.prefab using Guid(a022069911973a844a3562022ec9f1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91efd4403a5cee3914fd048aae8614c8') in 0.064170 seconds 
-  Import took 0.125897 seconds .
+  Time since last request: 27.935865 seconds.
+  path: Assets/_MAT/Tete_BB.mat
+  artifactKey: Guid(3aeeaedf674fd8d418114a19eabf299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/Tete_BB.mat using Guid(3aeeaedf674fd8d418114a19eabf299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fbea327dbc98e61845fb77ff38d33e') in 0.028940 seconds 
+  Import took 0.034764 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002679 seconds.
-  path: Assets/_PREFAB/SOL3_FBX.prefab
-  artifactKey: Guid(a022069911973a844a3562022ec9f1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PREFAB/SOL3_FBX.prefab using Guid(a022069911973a844a3562022ec9f1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91efd4403a5cee3914fd048aae8614c8') in 0.036451 seconds 
-  Import took 0.044726 seconds .
+  Time since last request: 22.325619 seconds.
+  path: Assets/_MAT/SOL_COULOIR_DROIT.mat
+  artifactKey: Guid(5a0aca1f0ea955948b6764b7dd92d9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/SOL_COULOIR_DROIT.mat using Guid(5a0aca1f0ea955948b6764b7dd92d9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9d57aa97f7de9fb417a376ded05fea') in 0.046810 seconds 
+  Import took 0.052923 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.578095 seconds.
-  path: Assets/_PREFAB/MUR_COTE_FBX.prefab
-  artifactKey: Guid(63a51b3fdc7bf384f9613aa33ea3144e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PREFAB/MUR_COTE_FBX.prefab using Guid(63a51b3fdc7bf384f9613aa33ea3144e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902a7fcbcdec32706d5288f610ee069c') in 0.042752 seconds 
-  Import took 0.050183 seconds .
+  Time since last request: 17.235916 seconds.
+  path: Assets/_MAT/SOL_COULOIR_CAR.mat
+  artifactKey: Guid(ab57a16381ab8bb498c0cc6a68bfaba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/SOL_COULOIR_CAR.mat using Guid(ab57a16381ab8bb498c0cc6a68bfaba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e34f42779e25add2f8410b86b2fc49b') in 0.026928 seconds 
+  Import took 0.032778 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004257 seconds.
-  path: Assets/_PREFAB/MUR_COTE_FBX.prefab
-  artifactKey: Guid(63a51b3fdc7bf384f9613aa33ea3144e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PREFAB/MUR_COTE_FBX.prefab using Guid(63a51b3fdc7bf384f9613aa33ea3144e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '902a7fcbcdec32706d5288f610ee069c') in 0.027831 seconds 
-  Import took 0.034096 seconds .
+  Time since last request: 12.266943 seconds.
+  path: Assets/_MAT/SOL_ROTONDE.mat
+  artifactKey: Guid(ec4c7ae6deb9dc94588e3687115e4e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/SOL_ROTONDE.mat using Guid(ec4c7ae6deb9dc94588e3687115e4e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493c6a50bd3e1e8111670803ed99b9a2') in 0.028869 seconds 
+  Import took 0.035444 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.936221 seconds.
-  path: Assets/_PREFAB/MUR_COTE_FBX (1).prefab
-  artifactKey: Guid(472d8c123f3353a418d37f15d4d28202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PREFAB/MUR_COTE_FBX (1).prefab using Guid(472d8c123f3353a418d37f15d4d28202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b71a8a75915fc401dedeab420530b86') in 0.031876 seconds 
-  Import took 0.047594 seconds .
+  Time since last request: 17.027794 seconds.
+  path: Assets/_MAT/VASE_BB.mat
+  artifactKey: Guid(3c6653cb3c8724b41a6dc1c44bb769e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/VASE_BB.mat using Guid(3c6653cb3c8724b41a6dc1c44bb769e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6ed75666ae0bb0b6aa473593a294ba') in 0.027863 seconds 
+  Import took 0.034664 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.739284 seconds.
-  path: Assets/_FBX/SOL1_FBX.fbx
-  artifactKey: Guid(e6b8722cb228f39469bf11cd6aed4abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FBX/SOL1_FBX.fbx using Guid(e6b8722cb228f39469bf11cd6aed4abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd7c477ae74dee5500258b6a3cc473d') in 0.049616 seconds 
-  Import took 0.057317 seconds .
+  Time since last request: 20.794605 seconds.
+  path: Assets/_MAT/PORTE_BB.mat
+  artifactKey: Guid(d99297fc72879244f8f0fc149fb7e41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/PORTE_BB.mat using Guid(d99297fc72879244f8f0fc149fb7e41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623951dec4248fec49071c43f8deff04') in 0.069920 seconds 
+  Import took 0.075805 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/_FBX/SOL3_FBX.fbx
-  artifactKey: Guid(eea1298c87a243b4b8f4a072dd7fe994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FBX/SOL3_FBX.fbx using Guid(eea1298c87a243b4b8f4a072dd7fe994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae78af55cf4b20208da2c4cf20aad756') in 0.059168 seconds 
-  Import took 0.119358 seconds .
+  Time since last request: 14.757248 seconds.
+  path: Assets/_MAT/COLLONNE_TETE.mat
+  artifactKey: Guid(0f50724acef62134297687e7b1a855d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/COLLONNE_TETE.mat using Guid(0f50724acef62134297687e7b1a855d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc95c08129f64f18f077456145e4d104') in 0.111226 seconds 
+  Import took 0.118063 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/_FBX/SOL2_FBX.fbx
-  artifactKey: Guid(f99735be6e90b914793958900c948a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FBX/SOL2_FBX.fbx using Guid(f99735be6e90b914793958900c948a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4021cdab5a5194eae6e4e79c3aaacdc') in 0.064199 seconds 
-  Import took 0.071275 seconds .
+  Time since last request: 25.972347 seconds.
+  path: Assets/_TXT
+  artifactKey: Guid(a6b4e2bc445dd234f90176c57c6dc50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT using Guid(a6b4e2bc445dd234f90176c57c6dc50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda95209c73805bb70ff6c5268d6e5cf') in 0.005734 seconds 
+  Import took 0.011270 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003641 seconds.
-  path: Assets/_FBX/SOL2_FBX.fbx
-  artifactKey: Guid(f99735be6e90b914793958900c948a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FBX/SOL2_FBX.fbx using Guid(f99735be6e90b914793958900c948a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4021cdab5a5194eae6e4e79c3aaacdc') in 0.062794 seconds 
-  Import took 0.071394 seconds .
+  Time since last request: 0.031820 seconds.
+  path: Assets/_TXT
+  artifactKey: Guid(a6b4e2bc445dd234f90176c57c6dc50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT using Guid(a6b4e2bc445dd234f90176c57c6dc50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda95209c73805bb70ff6c5268d6e5cf') in 0.002062 seconds 
+  Import took 0.009450 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1259.205909 seconds.
+  Time since last request: 0.199628 seconds.
   path: Assets/_TXT/PIED_TABLE_Base_color.png
   artifactKey: Guid(9e100af16643ba8429da3383a6523926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/PIED_TABLE_Base_color.png using Guid(9e100af16643ba8429da3383a6523926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bc0ba9acbd3985163a1e437cf16359') in 0.053633 seconds 
-  Import took 0.121095 seconds .
+Start importing Assets/_TXT/PIED_TABLE_Base_color.png using Guid(9e100af16643ba8429da3383a6523926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316b676e30a9e9339bb5ae5bcddb1155') in 0.103890 seconds 
+  Import took 0.109911 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000351 seconds.
+  Time since last request: 0.000287 seconds.
   path: Assets/_TXT/PLATEAU_TABLE_Base_color.png
   artifactKey: Guid(ca73a00a004fffa42822633cdbdb6b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/PLATEAU_TABLE_Base_color.png using Guid(ca73a00a004fffa42822633cdbdb6b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c70a29b66d050aee1a890f7e0b70456') in 0.019046 seconds 
-  Import took 0.029128 seconds .
+Start importing Assets/_TXT/PLATEAU_TABLE_Base_color.png using Guid(ca73a00a004fffa42822633cdbdb6b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ac97ea6782b06425a53155477f8cb3') in 0.011966 seconds 
+  Import took 0.017584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/_TXT/PLATEAU_TABLE_RMO.png
+  artifactKey: Guid(3c5bad489ef381d489088e0485afd55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/PLATEAU_TABLE_RMO.png using Guid(3c5bad489ef381d489088e0485afd55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35ea47df2cdf93e3653f127a401fe09') in 0.012278 seconds 
+  Import took 0.020042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/_TXT/PLATEAU_TABLE_Normal_DirectX.png
+  artifactKey: Guid(de50e83daf91885448adc250b1c8f13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/PLATEAU_TABLE_Normal_DirectX.png using Guid(de50e83daf91885448adc250b1c8f13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543305ce59ecf650b2f362f1ea796ec1') in 0.010855 seconds 
+  Import took 0.017505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/_TXT/Sol_Base_color.tga
+  artifactKey: Guid(294b69c8321fdcb409e5cde58f4e26f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/Sol_Base_color.tga using Guid(294b69c8321fdcb409e5cde58f4e26f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ab46b23cb7e4a278675dcec8474440') in 0.056559 seconds 
+  Import took 0.062243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/_TXT/PIED_TABLE_RMO.png
+  artifactKey: Guid(bffef5201ad250b4f96d4ac6cb18cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/PIED_TABLE_RMO.png using Guid(bffef5201ad250b4f96d4ac6cb18cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d04d54fd127b24ad4cdb75066bd70bf') in 0.009987 seconds 
+  Import took 0.015363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/_TXT/PIED_TABLE_Normal_DirectX.png
+  artifactKey: Guid(2a451c85bf0c9c74c8144eaeb54dffe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/PIED_TABLE_Normal_DirectX.png using Guid(2a451c85bf0c9c74c8144eaeb54dffe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4dbc5f5331e90d6523399415222c27') in 0.010548 seconds 
+  Import took 0.016445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/_TXT/Sol_RMO.tga
+  artifactKey: Guid(4f2fb157836848f48a7831d3db98ae12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/Sol_RMO.tga using Guid(4f2fb157836848f48a7831d3db98ae12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12f733a2633962d9ec3eb20f9476bda') in 0.011944 seconds 
+  Import took 0.018039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.366178 seconds.
+  path: Assets/_TXT/text couloir
+  artifactKey: Guid(bf7155b34303030498d2e7621248be3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir using Guid(bf7155b34303030498d2e7621248be3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ec1ca767d88fb1c5081f0aa1b3b0ec') in 0.005688 seconds 
+  Import took 0.013019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005863 seconds.
+  path: Assets/_TXT/text couloir
+  artifactKey: Guid(bf7155b34303030498d2e7621248be3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir using Guid(bf7155b34303030498d2e7621248be3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ec1ca767d88fb1c5081f0aa1b3b0ec') in 0.001874 seconds 
+  Import took 0.008433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.990751 seconds.
+  path: Assets/_TXT/text couloir/RMO.png
+  artifactKey: Guid(4bc75647455a74b4ead578a9c573ab41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/RMO.png using Guid(4bc75647455a74b4ead578a9c573ab41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c37604f472be9dc074525844e2cff5') in 0.014465 seconds 
+  Import took 0.020264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.976425 seconds.
+  path: Assets/_TXT/text couloir/albedo.png
+  artifactKey: Guid(699e42a6fc690a443b15e529eae525a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/albedo.png using Guid(699e42a6fc690a443b15e529eae525a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38497cfb0b6f122e9ac7935882359418') in 0.015505 seconds 
+  Import took 0.021332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.762990 seconds.
+  path: Assets/_TXT/text couloir/normal.png
+  artifactKey: Guid(5c751d9f022779e49a38ae2ac16a9d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/normal.png using Guid(5c751d9f022779e49a38ae2ac16a9d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e647006fc7f580df81a4de9d663adcb9') in 0.017174 seconds 
+  Import took 0.024772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.772891 seconds.
+  path: Assets/_FBX/arceaux_mur_rotonde.fbx
+  artifactKey: Guid(46161c4954bd19b4493548423a6dbb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/arceaux_mur_rotonde.fbx using Guid(46161c4954bd19b4493548423a6dbb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ab8708d5fef10aa3ea0b5d8b045fb4') in 0.124578 seconds 
+  Import took 0.130620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/_FBX/DECO_OR_PORTE_FBX.fbx
+  artifactKey: Guid(a6390d35fee8c7f4c87d306e39d812d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/DECO_OR_PORTE_FBX.fbx using Guid(a6390d35fee8c7f4c87d306e39d812d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e818b753353f1ca73d2bf8c9891abde5') in 0.061807 seconds 
+  Import took 0.067566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/_FBX/CHAISE_FBX.fbx
+  artifactKey: Guid(152bbc18ff5168b41a0e42e28231e8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/CHAISE_FBX.fbx using Guid(152bbc18ff5168b41a0e42e28231e8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b421eaa30c6f19f8e243c9d7c11deab4') in 0.043265 seconds 
+  Import took 0.049006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/_FBX/DECO_OR_MUR_FBX.fbx
+  artifactKey: Guid(b2e3fac9b798af340a8c9dde5f84d85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/DECO_OR_MUR_FBX.fbx using Guid(b2e3fac9b798af340a8c9dde5f84d85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1b7857b0425041adea89142fbda752') in 0.061756 seconds 
+  Import took 0.067637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/_FBX/GRANDE_COLONNE_3_FBX.fbx
+  artifactKey: Guid(d9bed068996300e4384fed51110438e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/GRANDE_COLONNE_3_FBX.fbx using Guid(d9bed068996300e4384fed51110438e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8e79d0f0f8cf74d39c515c20d708bf') in 0.045285 seconds 
+  Import took 0.051236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/_FBX/collonne_bb.fbx
+  artifactKey: Guid(2c1d67835311f244d98a9294972137b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/collonne_bb.fbx using Guid(2c1d67835311f244d98a9294972137b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fac4f3f0b672d557d96b269ce8753c') in 0.044036 seconds 
+  Import took 0.050249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/_FBX/module_arche.fbx
+  artifactKey: Guid(1db46e2cc9c9b25488e0e0fd6a97f5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_arche.fbx using Guid(1db46e2cc9c9b25488e0e0fd6a97f5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725eb85506d20d09e44bd55f75f83d46') in 0.042313 seconds 
+  Import took 0.048547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/_FBX/mur_bas_rotonde.fbx
+  artifactKey: Guid(1cbb0cbcc0c92614498d02192fa1e497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/mur_bas_rotonde.fbx using Guid(1cbb0cbcc0c92614498d02192fa1e497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d481f1289fe3d4040ad452eeab983c') in 0.055300 seconds 
+  Import took 0.061424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/_FBX/GRAND_MUR_FBX.fbx
+  artifactKey: Guid(1e3c6923cb1f8eb4184848c01bbe5a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/GRAND_MUR_FBX.fbx using Guid(1e3c6923cb1f8eb4184848c01bbe5a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac75e76777a84f653ac4be9dc20df2e6') in 0.043907 seconds 
+  Import took 0.050110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/_FBX/GRANDE_COLONNE_2_FBX.fbx
+  artifactKey: Guid(c703920114b279c4183d24ac59ee3fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/GRANDE_COLONNE_2_FBX.fbx using Guid(c703920114b279c4183d24ac59ee3fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58558a5026c720cb7ba439218cd5d1f3') in 0.044461 seconds 
+  Import took 0.050399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/_FBX/PLINTHE_FBX.fbx
+  artifactKey: Guid(c97cf9883197f65429374446dd7210f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/PLINTHE_FBX.fbx using Guid(c97cf9883197f65429374446dd7210f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e2a11cb810e14cd0275a8456750ba0') in 0.040204 seconds 
+  Import took 0.046307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/_FBX/SOL1_FBX.fbx
+  artifactKey: Guid(e6b8722cb228f39469bf11cd6aed4abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/SOL1_FBX.fbx using Guid(e6b8722cb228f39469bf11cd6aed4abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44eb118bf12a834e66e1b4f8e95bf34') in 0.045342 seconds 
+  Import took 0.051702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/_FBX/module_mur_fermé.fbx
+  artifactKey: Guid(86c999a699fd6f54cbba065aad6e7ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_mur_fermé.fbx using Guid(86c999a699fd6f54cbba065aad6e7ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f71894eebac8e39ad8c244f215aafb') in 0.045809 seconds 
+  Import took 0.052494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/_FBX/module_mur_haut.fbx
+  artifactKey: Guid(c8bbac343af525540a9980d6e1ba7193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_mur_haut.fbx using Guid(c8bbac343af525540a9980d6e1ba7193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4becb3c13cfef1a2d10a013b5b9af89') in 0.045752 seconds 
+  Import took 0.052661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/_FBX/MUR_COTE_FBX.fbx
+  artifactKey: Guid(a011cdf7dfa637b45ae219dce5e1c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/MUR_COTE_FBX.fbx using Guid(a011cdf7dfa637b45ae219dce5e1c608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1e30a91e9f9225f9326c23b42fe9ef') in 0.040217 seconds 
+  Import took 0.047173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/_FBX/porte_tete_bb.fbx
+  artifactKey: Guid(32859bfa94cf8ee4588bc47ac988320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/porte_tete_bb.fbx using Guid(32859bfa94cf8ee4588bc47ac988320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e84b6e1ad5d76b031c45aaf419e3cb') in 0.044732 seconds 
+  Import took 0.050770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/_FBX/RAIL_MAGNETIQUE_FBX.fbx
+  artifactKey: Guid(99dd7123d47ac5948b0441f2c85d0b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/RAIL_MAGNETIQUE_FBX.fbx using Guid(99dd7123d47ac5948b0441f2c85d0b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82206a46904c09a8e7f80715ab4795ef') in 0.038503 seconds 
+  Import took 0.046066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/_FBX/ETAGERE_FBX.fbx
+  artifactKey: Guid(f36bd8bbc8cc5f44d8ac237d6274ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/ETAGERE_FBX.fbx using Guid(f36bd8bbc8cc5f44d8ac237d6274ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea871b445539a870823e05e13aa0918') in 0.065256 seconds 
+  Import took 0.072066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/_FBX/MEUBLE_2_FBX.fbx
+  artifactKey: Guid(bc377ce57b4ff6d459276ac96d1cc8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/MEUBLE_2_FBX.fbx using Guid(bc377ce57b4ff6d459276ac96d1cc8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c54bafc53eb9d1bfd68ffe5ca73d40') in 0.045732 seconds 
+  Import took 0.051816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/_FBX/GRANDE_COLONNE_4_FBX.fbx
+  artifactKey: Guid(18ce9021430522e4f9b06721574ba10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/GRANDE_COLONNE_4_FBX.fbx using Guid(18ce9021430522e4f9b06721574ba10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b424dfc4e0e61f9e01aabed817c684a2') in 0.044936 seconds 
+  Import took 0.051245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/_FBX/module_sol_carrefour.fbx
+  artifactKey: Guid(f89c8b2ef516dd142859223efe5d68db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_sol_carrefour.fbx using Guid(f89c8b2ef516dd142859223efe5d68db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147a51cab497688d3e7064d18f736893') in 0.043431 seconds 
+  Import took 0.050054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/_FBX/plante_3.fbx
+  artifactKey: Guid(5167b7e02b7079b4b8736dcdd3950a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/plante_3.fbx using Guid(5167b7e02b7079b4b8736dcdd3950a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0339763c5112655ac55ec5932a2aaf8c') in 0.042138 seconds 
+  Import took 0.047905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/_FBX/module_toit_bas.fbx
+  artifactKey: Guid(6f300fc2c13e1c245b35a24e959f73d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_toit_bas.fbx using Guid(6f300fc2c13e1c245b35a24e959f73d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0acf0b00a022e4fd247fa59acb129a5') in 0.040479 seconds 
+  Import took 0.046312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/_FBX/BORDURES_GRAND_MUR_FBX.fbx
+  artifactKey: Guid(0accfd4fe9991b743905fda30c3b5be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/BORDURES_GRAND_MUR_FBX.fbx using Guid(0accfd4fe9991b743905fda30c3b5be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1e01f6d03d7d20a72097a01b8cdd15') in 0.063711 seconds 
+  Import took 0.069770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/_FBX/mur_liaison_rotonde.fbx
+  artifactKey: Guid(1890ec52e18678c43a6f4765147566fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/mur_liaison_rotonde.fbx using Guid(1890ec52e18678c43a6f4765147566fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab708231a4742436f707c611c3c3675c') in 0.054782 seconds 
+  Import took 0.060764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/_FBX/ROOMBA_FBX.fbx
+  artifactKey: Guid(72ab22ab4671e944080df78dec9373ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/ROOMBA_FBX.fbx using Guid(72ab22ab4671e944080df78dec9373ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485849fdbb7cfbd7b49d14caf9d5d2b5') in 0.054182 seconds 
+  Import took 0.060024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/_FBX/mur_haut_rotonde.fbx
+  artifactKey: Guid(254350be2ca4b8241b2c3e2b74994705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/mur_haut_rotonde.fbx using Guid(254350be2ca4b8241b2c3e2b74994705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3d6e71711b04eaa86731fb2901161b') in 0.052526 seconds 
+  Import took 0.058892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/_FBX/plafond_rotonde.fbx
+  artifactKey: Guid(d1519ace8e67f0b4ba8cf4c325bfda47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/plafond_rotonde.fbx using Guid(d1519ace8e67f0b4ba8cf4c325bfda47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af271834b2de5217048f527a25f859f6') in 0.045997 seconds 
+  Import took 0.052099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_FBX/mur_rotonde.fbx
+  artifactKey: Guid(9e95c34280c32bd43a4abf05c8e0f9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/mur_rotonde.fbx using Guid(9e95c34280c32bd43a4abf05c8e0f9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf5fd0b1118f50af559acee65e52288') in 0.052928 seconds 
+  Import took 0.059419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/_FBX/Portedorée_low_poly.obj
+  artifactKey: Guid(f5af48984d4345b48ac61e18dfd811a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/Portedorée_low_poly.obj using Guid(f5af48984d4345b48ac61e18dfd811a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db00f297148cd9e4727a65c75e679454') in 0.059313 seconds 
+  Import took 0.065550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/_FBX/plante_2.fbx
+  artifactKey: Guid(3816fe7e84678a1489a5ac59cad0a67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/plante_2.fbx using Guid(3816fe7e84678a1489a5ac59cad0a67f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2af63dc1748ac9c31f3e9fbfe374e4') in 0.042710 seconds 
+  Import took 0.049155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/_FBX/collonne_liaison_rotonde.fbx
+  artifactKey: Guid(25d4189bddf6fdc43a7fe975ddc1f8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/collonne_liaison_rotonde.fbx using Guid(25d4189bddf6fdc43a7fe975ddc1f8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028aace872e044cc4e1a574d85dfecd2') in 0.056838 seconds 
+  Import took 0.062875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/_FBX/CADRE_PHOTO_FBX.fbx
+  artifactKey: Guid(814f0b4ac93953449a202d03cda018a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/CADRE_PHOTO_FBX.fbx using Guid(814f0b4ac93953449a202d03cda018a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d92698f6cddc81d0aa3d4cc792028c') in 0.069292 seconds 
+  Import took 0.075990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/_FBX/MEUBLE_1_FBX.fbx
+  artifactKey: Guid(b39441781206ade448f30411a51140b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/MEUBLE_1_FBX.fbx using Guid(b39441781206ade448f30411a51140b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c71e1861d52f732dbcf3aa9afab52c') in 0.041397 seconds 
+  Import took 0.047207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/_FBX/LIVRE_2_FBX.fbx
+  artifactKey: Guid(50637f32cfdf5f742b00a2c1f3672232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/LIVRE_2_FBX.fbx using Guid(50637f32cfdf5f742b00a2c1f3672232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56ff0c7a8fbde445ea601aec4a0a5d0') in 0.044399 seconds 
+  Import took 0.050304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/_FBX/plante_1.fbx
+  artifactKey: Guid(779d602ca3e3bec4c97d5f0fb705f654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/plante_1.fbx using Guid(779d602ca3e3bec4c97d5f0fb705f654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1d4536fab45dd8ea3e48fe4f0c011d') in 0.039757 seconds 
+  Import took 0.045518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/_FBX/module_lampe.fbx
+  artifactKey: Guid(d75bf26d67785974380028f61a4dd3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_lampe.fbx using Guid(d75bf26d67785974380028f61a4dd3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2f9f47606c7eed0ecd960759c8a047') in 0.040568 seconds 
+  Import took 0.046637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/_FBX/module_mur_ouvert.fbx
+  artifactKey: Guid(84b65e4aca511a54ebc721d1364fa04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_mur_ouvert.fbx using Guid(84b65e4aca511a54ebc721d1364fa04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1898096fc78de406526f9c6a50b387f2') in 0.049228 seconds 
+  Import took 0.055125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/_FBX/ARCEAUX_VERRIERE.fbx
+  artifactKey: Guid(a6e4557e22344f04cb2d15c75d19c49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/ARCEAUX_VERRIERE.fbx using Guid(a6e4557e22344f04cb2d15c75d19c49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706fbc71730688fc5c7b900f88a0a3c0') in 0.079706 seconds 
+  Import took 0.085507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/_FBX/LIVRE_1_FBX.fbx
+  artifactKey: Guid(b528ac0aef269b243803fcf4c9425f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/LIVRE_1_FBX.fbx using Guid(b528ac0aef269b243803fcf4c9425f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5845513f51b875c5856d366798b6e28a') in 0.039556 seconds 
+  Import took 0.045457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/_FBX/module_collone_droite.fbx
+  artifactKey: Guid(33d9e9580bdb1e3429c26cd34d4baf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_collone_droite.fbx using Guid(33d9e9580bdb1e3429c26cd34d4baf3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc03982b08e352190fc139f765326544') in 0.042078 seconds 
+  Import took 0.048394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/_FBX/SOL3_FBX.fbx
+  artifactKey: Guid(eea1298c87a243b4b8f4a072dd7fe994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/SOL3_FBX.fbx using Guid(eea1298c87a243b4b8f4a072dd7fe994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97222c4889846d0d8450f39e52c6ba4') in 0.044513 seconds 
+  Import took 0.050622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/_FBX/LIVRE_3_FBX.fbx
+  artifactKey: Guid(c7411ea2765569f45b1d4e41c550c091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/LIVRE_3_FBX.fbx using Guid(c7411ea2765569f45b1d4e41c550c091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec37d759200755872addf1427e40fcd') in 0.039612 seconds 
+  Import took 0.045626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/_FBX/FAUTEUIL_BB_FBX.fbx
+  artifactKey: Guid(f2e1212b8644fdc49999a25f679995ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/FAUTEUIL_BB_FBX.fbx using Guid(f2e1212b8644fdc49999a25f679995ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e416523623ce1a80f17224d1c001b952') in 0.042585 seconds 
+  Import took 0.048866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/_FBX/module_sol_droit.fbx
+  artifactKey: Guid(50d109b8fd74ac44e96e7756bafd86f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_sol_droit.fbx using Guid(50d109b8fd74ac44e96e7756bafd86f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd9ade78266349406d07bf2d9ddf38f') in 0.044830 seconds 
+  Import took 0.051547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/_FBX/SOL2_FBX.fbx
+  artifactKey: Guid(f99735be6e90b914793958900c948a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/SOL2_FBX.fbx using Guid(f99735be6e90b914793958900c948a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5956a21b537273f9cc22b20297646fe') in 0.050406 seconds 
+  Import took 0.056604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/_FBX/ECRANS_FBX.fbx
+  artifactKey: Guid(cea46ae86c837a04787389b3ce5ce868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/ECRANS_FBX.fbx using Guid(cea46ae86c837a04787389b3ce5ce868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d2739885cfbbd7449a27c6dd49e0ae') in 0.078904 seconds 
+  Import took 0.084808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/_FBX/module_toit_haut.fbx
+  artifactKey: Guid(e14d1569983492a45a0aae18c24196b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_toit_haut.fbx using Guid(e14d1569983492a45a0aae18c24196b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e4819ca81f58e9da34c5aef588abca') in 0.043286 seconds 
+  Import took 0.049344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/_FBX/BUREAU_FBX.fbx
+  artifactKey: Guid(1050faa1dba282446a862dc6ae588331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/BUREAU_FBX.fbx using Guid(1050faa1dba282446a862dc6ae588331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3409a7b7cc2de23403a8ef2f619eff') in 0.040458 seconds 
+  Import took 0.046595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/_FBX/plante_4.fbx
+  artifactKey: Guid(36d0d01b8c11b5743b6d8f9ff28585e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/plante_4.fbx using Guid(36d0d01b8c11b5743b6d8f9ff28585e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f9f2ceb0b5601f6783079a01c34fcb') in 0.046278 seconds 
+  Import took 0.054079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/_FBX/module_porte.fbx
+  artifactKey: Guid(2ea843901ad738346a977bf21dc6348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_porte.fbx using Guid(2ea843901ad738346a977bf21dc6348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa2adc1705d1f5304b59964131af02d') in 0.043043 seconds 
+  Import took 0.049533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/_FBX/GRANDE_COLONNE_1.fbx
+  artifactKey: Guid(eef2ebd3905dbb0409771907478f127e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/GRANDE_COLONNE_1.fbx using Guid(eef2ebd3905dbb0409771907478f127e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7871c147e07624f7ba0af533838b83') in 0.044223 seconds 
+  Import took 0.050359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.194136 seconds.
+  path: Assets/_FBX/sol_rotonde.fbx
+  artifactKey: Guid(6e3b931b0a9c5434e91c8dddf6a653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/sol_rotonde.fbx using Guid(6e3b931b0a9c5434e91c8dddf6a653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8363352b1a248e19e86162cee7027989') in 0.039385 seconds 
+  Import took 0.045989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/_FBX/VERRIERE_FBX.fbx
+  artifactKey: Guid(a4475393c62088948ad22caa720d0c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/VERRIERE_FBX.fbx using Guid(a4475393c62088948ad22caa720d0c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9471ce23cb2b0ca46c7b11f419de446') in 0.056324 seconds 
+  Import took 0.062125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/_FBX/Vase.fbx
+  artifactKey: Guid(6327ce093adc17c49af619eea6311565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/Vase.fbx using Guid(6327ce093adc17c49af619eea6311565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f81d5f68239c607d8727a501ede6661') in 0.041163 seconds 
+  Import took 0.047446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/_FBX/VASE_FIN_FBX.fbx
+  artifactKey: Guid(d483d071c189e404e98d144dd35d4bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/VASE_FIN_FBX.fbx using Guid(d483d071c189e404e98d144dd35d4bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103fff0adac178718e507bc90ac8f558') in 0.042292 seconds 
+  Import took 0.048259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/_FBX/TABLE_FBX.fbx
+  artifactKey: Guid(090be446ed2b79a4c81542a216643f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/TABLE_FBX.fbx using Guid(090be446ed2b79a4c81542a216643f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3ee400980e2880ec057db8abb7e1a0') in 0.107189 seconds 
+  Import took 0.113325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/_FBX/tete_bb.fbx
+  artifactKey: Guid(04bdd25d8f8e14544bafaaca209480c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/tete_bb.fbx using Guid(04bdd25d8f8e14544bafaaca209480c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a84186c26df93e329b9d3d69480228') in 0.050723 seconds 
+  Import took 0.056542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/_FBX/VASE_AMPHORE_FBX.fbx
+  artifactKey: Guid(fd0075a7dcdad844cb240696022d5d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/VASE_AMPHORE_FBX.fbx using Guid(fd0075a7dcdad844cb240696022d5d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a6f06305a0a05ee1f1e2833423ab96') in 0.052276 seconds 
+  Import took 0.058693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.338432 seconds.
+  path: Assets/_FBX/tete_bb.fbx
+  artifactKey: Guid(04bdd25d8f8e14544bafaaca209480c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/tete_bb.fbx using Guid(04bdd25d8f8e14544bafaaca209480c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b5d8280814aca546603bf4bf7182ff') in 0.152296 seconds 
+  Import took 0.159325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.969843 seconds.
+  path: Assets/_MAT/MATERIAUX TEST/BLANC_BASE.mat
+  artifactKey: Guid(afd5038ed1bc78e4a8ffae74f828c1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/MATERIAUX TEST/BLANC_BASE.mat using Guid(afd5038ed1bc78e4a8ffae74f828c1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a219adf58de14612629712a78de625f') in 0.025592 seconds 
+  Import took 0.032353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/_MAT/MATERIAUX TEST/BLUE_BASE.mat
+  artifactKey: Guid(0738822eabba87b45b73598be17235d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/MATERIAUX TEST/BLUE_BASE.mat using Guid(0738822eabba87b45b73598be17235d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c330dcc58541df5b3955e5768c885bce') in 0.026626 seconds 
+  Import took 0.032821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/_MAT/MATERIAUX TEST/lambert1.mat
+  artifactKey: Guid(ea125087609a3d7498bbb9a87004a7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/MATERIAUX TEST/lambert1.mat using Guid(ea125087609a3d7498bbb9a87004a7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebad0e396996e81d4be8caa278d778c') in 0.028352 seconds 
+  Import took 0.034917 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000344 seconds.
-  path: Assets/_TXT/PLATEAU_TABLE_RMO.png
-  artifactKey: Guid(3c5bad489ef381d489088e0485afd55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/PLATEAU_TABLE_RMO.png using Guid(3c5bad489ef381d489088e0485afd55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5d78edb3f5929c4749350e3c27020e') in 0.020954 seconds 
-  Import took 0.105891 seconds .
+  path: Assets/_MAT/MATERIAUX TEST/GOLD_BASE.mat
+  artifactKey: Guid(ce91eade22f6c0b4d98b23b37ec624ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/MATERIAUX TEST/GOLD_BASE.mat using Guid(ce91eade22f6c0b4d98b23b37ec624ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89dd0a4ea4f54baa41f818172d69d4e') in 0.026439 seconds 
+  Import took 0.032918 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/_TXT/PLATEAU_TABLE_Normal_DirectX.png
-  artifactKey: Guid(de50e83daf91885448adc250b1c8f13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/PLATEAU_TABLE_Normal_DirectX.png using Guid(de50e83daf91885448adc250b1c8f13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258d2acfd058ad1b47ca74e69f972260') in 0.020285 seconds 
-  Import took 0.113503 seconds .
+  Time since last request: 687.335610 seconds.
+  path: Assets/_TXT/text couloir/tete_bb_lambert1_Emissive.png
+  artifactKey: Guid(03ba18cf40550aa4396ec1b3bd982344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/tete_bb_lambert1_Emissive.png using Guid(03ba18cf40550aa4396ec1b3bd982344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90c66c9ae2ca0f3af041eae52830ad9') in 0.013188 seconds 
+  Import took 0.020662 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/_TXT/PIED_TABLE_RMO.png
-  artifactKey: Guid(bffef5201ad250b4f96d4ac6cb18cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/PIED_TABLE_RMO.png using Guid(bffef5201ad250b4f96d4ac6cb18cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5733bd06c1768d3f9ec4a38a4469e2') in 0.011116 seconds 
-  Import took 0.073643 seconds .
+  Time since last request: 331.507929 seconds.
+  path: Assets/_TXT/text couloir/Vase_lambert1_BaseColor.png
+  artifactKey: Guid(4188b4d94058ecf4f9a9c121175bc087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/Vase_lambert1_BaseColor.png using Guid(4188b4d94058ecf4f9a9c121175bc087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd102fd7d3b91ec2859650d9d94d3023a') in 0.014111 seconds 
+  Import took 0.021379 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/_TXT/PIED_TABLE_Normal_DirectX.png
-  artifactKey: Guid(2a451c85bf0c9c74c8144eaeb54dffe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/PIED_TABLE_Normal_DirectX.png using Guid(2a451c85bf0c9c74c8144eaeb54dffe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7007d703e8da0cb2293ebe8bc110632d') in 0.015351 seconds 
-  Import took 0.046969 seconds .
+  Time since last request: 11.097468 seconds.
+  path: Assets/_TXT/text couloir/Vase_lambert1_Normal.png
+  artifactKey: Guid(d3bd43ee273b14047a050ff57eb96090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/Vase_lambert1_Normal.png using Guid(d3bd43ee273b14047a050ff57eb96090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4502f241c7546db603e8dde3026f12') in 0.013711 seconds 
+  Import took 0.020259 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.103986 seconds.
-  path: Assets/_MAT/PLATEAU_TABLE.mat
-  artifactKey: Guid(92ddfcca84731c648a954ac20430e1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MAT/PLATEAU_TABLE.mat using Guid(92ddfcca84731c648a954ac20430e1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f4eb6800548d5d1f3245410c336c66') in 0.040386 seconds 
-  Import took 0.089158 seconds .
+  Time since last request: 10.430923 seconds.
+  path: Assets/_TXT/text couloir/porte_tete_bb_lambert1_BaseColor.png
+  artifactKey: Guid(12e231bb4f9d6a848bfca217c6c0fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/porte_tete_bb_lambert1_BaseColor.png using Guid(12e231bb4f9d6a848bfca217c6c0fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2709e1f31a6587fbba99aebca53d7b94') in 0.014980 seconds 
+  Import took 0.021229 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/_MAT/SOL.mat
-  artifactKey: Guid(f98da0ada50c280449c7f7bc1208722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MAT/SOL.mat using Guid(f98da0ada50c280449c7f7bc1208722c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa62bb9ad4d6e9aaf539c9b1f40c2801') in 0.100957 seconds 
-  Import took 0.162851 seconds .
+  Time since last request: 6.945995 seconds.
+  path: Assets/_TXT/text couloir/porte_tete_bb_lambert1_Normal.png
+  artifactKey: Guid(5c65267e5982db14eb471f3ef94d5ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/porte_tete_bb_lambert1_Normal.png using Guid(5c65267e5982db14eb471f3ef94d5ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a04e07574a7f4fdd7b3f0850d5351fa') in 0.013726 seconds 
+  Import took 0.020365 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.166679 seconds.
-  path: Assets/_MAT/PIED_TABLE.mat
-  artifactKey: Guid(9d2c29b0a932321469436e43c861c11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MAT/PIED_TABLE.mat using Guid(9d2c29b0a932321469436e43c861c11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7370d988661fe25f6b71deff1cb69ea8') in 0.030788 seconds 
-  Import took 0.331778 seconds .
+  Time since last request: 6.403594 seconds.
+  path: Assets/_TXT/text couloir/RMO_1.png
+  artifactKey: Guid(00456cff3c4c11046b05c64c56da8252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/RMO_1.png using Guid(00456cff3c4c11046b05c64c56da8252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b800046fbcdebbe686e6addb195ee084') in 0.015781 seconds 
+  Import took 0.021860 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.475530 seconds.
-  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
-  artifactKey: Guid(60c89308b28cc6a4aac822ab52ac7fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(60c89308b28cc6a4aac822ab52ac7fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a011b31110ebfa9480aebd303847f7a') in 0.032359 seconds 
-  Import took 0.038293 seconds .
+  Time since last request: 3.053177 seconds.
+  path: Assets/_TXT/text couloir/albedo_2.png
+  artifactKey: Guid(f7687460b001c9548853ed936f09ccbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/albedo_2.png using Guid(f7687460b001c9548853ed936f09ccbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e716f663916607c0b71897bb39cfd925') in 0.015175 seconds 
+  Import took 0.021538 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset
-  artifactKey: Guid(d4aa0f6819088514580d5cef9a64becb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/Foliage Diffusion Profile.asset using Guid(d4aa0f6819088514580d5cef9a64becb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444ac7239707864c1b810c2f67d7c13f') in 0.023656 seconds 
-  Import took 0.029931 seconds .
+  Time since last request: 50.654850 seconds.
+  path: Assets/_TXT/text couloir/normal_3.png
+  artifactKey: Guid(f5e8e662582010d4baf39ef2ff483b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/normal_3.png using Guid(f5e8e662582010d4baf39ef2ff483b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d50aae03eec2d4d5741d0399b6d3337') in 0.013871 seconds 
+  Import took 0.020291 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/HDRPDefaultResources/Skin Diffusion Profile.asset
-  artifactKey: Guid(449581b61f5dfd941af9d402d29a2312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/Skin Diffusion Profile.asset using Guid(449581b61f5dfd941af9d402d29a2312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edcd5ee7ce1de667fc290cb41bda56e') in 0.021960 seconds 
-  Import took 0.041052 seconds .
+  Time since last request: 33.902264 seconds.
+  path: Assets/_TXT/text couloir/albedo 1.png
+  artifactKey: Guid(06f057985e353144baedcb92ba3aa6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/albedo 1.png using Guid(06f057985e353144baedcb92ba3aa6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793fe6a845abee6e4b0a214326716708') in 0.030584 seconds 
+  Import took 0.038358 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
-  artifactKey: Guid(3f0d80ddce158d84a99db2df6b5e75af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(3f0d80ddce158d84a99db2df6b5e75af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1cddbb9fdf2c4bfa384f40bd48c9c3f') in 0.018906 seconds 
-  Import took 0.049836 seconds .
+  Time since last request: 23.748712 seconds.
+  path: Assets/_TXT/text couloir/normal 1.png
+  artifactKey: Guid(db200feefb9b37f4dab93ea29e24b3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/normal 1.png using Guid(db200feefb9b37f4dab93ea29e24b3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbd0819462b9ddadd07d22c1e38f7f3') in 0.012964 seconds 
+  Import took 0.019304 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
-  artifactKey: Guid(44bae2fb9be18a74e8086487a8a5ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(44bae2fb9be18a74e8086487a8a5ac6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec69180dae8b44b167d1ca26d50caead') in 0.025257 seconds 
-  Import took 0.047665 seconds .
+  Time since last request: 14.539877 seconds.
+  path: Assets/_TXT/text couloir/RMO 1.png
+  artifactKey: Guid(310a813b90e48494ea6b96a89c497e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/RMO 1.png using Guid(310a813b90e48494ea6b96a89c497e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5df5035b4946e30397c50aa71c14515') in 0.015337 seconds 
+  Import took 0.021653 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.694949 seconds.
+  Time since last request: 110.137699 seconds.
+  path: Assets/_TXT/text couloir/tete_bb_lambert1_BaseColor.png
+  artifactKey: Guid(65b3fcd03e511144f8c410a53f0d7e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/tete_bb_lambert1_BaseColor.png using Guid(65b3fcd03e511144f8c410a53f0d7e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0206d69ec216540af87389183865cc03') in 0.014421 seconds 
+  Import took 0.022078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 323.154444 seconds.
+  path: Assets/_TXT/text couloir/RMO 2.png
+  artifactKey: Guid(d0d07d6ed7f00ec4e8cf135b742a8738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/RMO 2.png using Guid(d0d07d6ed7f00ec4e8cf135b742a8738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fc7b0fbc0d6e5de844083942ec2433') in 0.015105 seconds 
+  Import took 0.022038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.587373 seconds.
+  path: Assets/_TXT/text couloir/albedo 2.png
+  artifactKey: Guid(980d315a0ffce294bab80384c475b1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/albedo 2.png using Guid(980d315a0ffce294bab80384c475b1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11dc9693129dfe4e0847cd769d13798') in 0.014273 seconds 
+  Import took 0.020375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.468117 seconds.
+  path: Assets/_TXT/text couloir/normal 2.png
+  artifactKey: Guid(b23c07bc349b2904588a6a00d9bdb0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/normal 2.png using Guid(b23c07bc349b2904588a6a00d9bdb0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb29e049596f1c91fc658f63ea5e8e6') in 0.019034 seconds 
+  Import took 0.025836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.144366 seconds.
+  path: Assets/_FBX/tete_bb.fbx
+  artifactKey: Guid(04bdd25d8f8e14544bafaaca209480c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/tete_bb.fbx using Guid(04bdd25d8f8e14544bafaaca209480c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3c3837aeb3cdee79e33fc34502213a') in 0.141686 seconds 
+  Import took 0.148696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.193663 seconds.
+  path: Assets/_FBX/sol_rotonde.fbx
+  artifactKey: Guid(6e3b931b0a9c5434e91c8dddf6a653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/sol_rotonde.fbx using Guid(6e3b931b0a9c5434e91c8dddf6a653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd089194ca7689ad4b5adea231cb19b0') in 0.053884 seconds 
+  Import took 0.060812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.147749 seconds.
+  path: Assets/_FBX/sol_rotonde.fbx
+  artifactKey: Guid(6e3b931b0a9c5434e91c8dddf6a653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/sol_rotonde.fbx using Guid(6e3b931b0a9c5434e91c8dddf6a653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e0d32e1b2db6f72575a4d4c86acaf5') in 0.217797 seconds 
+  Import took 0.224316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.490483 seconds.
+  path: Assets/_FBX/sol_rotonde.fbx
+  artifactKey: Guid(6e3b931b0a9c5434e91c8dddf6a653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/sol_rotonde.fbx using Guid(6e3b931b0a9c5434e91c8dddf6a653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03015d56123966e35897c444aeaf887') in 0.214994 seconds 
+  Import took 0.222333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.407376 seconds.
+  path: Assets/_FBX/sol_rotonde.fbx
+  artifactKey: Guid(6e3b931b0a9c5434e91c8dddf6a653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/sol_rotonde.fbx using Guid(6e3b931b0a9c5434e91c8dddf6a653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca4e0dbcf60c4af3e768e27f5fa9ccf') in 0.042357 seconds 
+  Import took 0.049551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.729568 seconds.
+  path: Assets/_FBX/sol_rotonde.fbx
+  artifactKey: Guid(6e3b931b0a9c5434e91c8dddf6a653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/sol_rotonde.fbx using Guid(6e3b931b0a9c5434e91c8dddf6a653f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc247711da277222f14c0092c2277d7') in 0.105407 seconds 
+  Import took 0.112349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.465388 seconds.
+  path: Assets/_MAT/lambert1.mat
+  artifactKey: Guid(cf3e36a82b3a3684094fb698f89ac398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/lambert1.mat using Guid(cf3e36a82b3a3684094fb698f89ac398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e91f07b85ee629945fbfad89b945170') in 0.027080 seconds 
+  Import took 0.033849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/_MAT/Tete_BB.mat
+  artifactKey: Guid(3aeeaedf674fd8d418114a19eabf299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/Tete_BB.mat using Guid(3aeeaedf674fd8d418114a19eabf299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f580748fb2019297fe5dac2a5dd09e') in 0.057752 seconds 
+  Import took 0.064971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/_MAT/Mat_verre.mat
+  artifactKey: Guid(655f371e88e6ae540b86e6483ef8eaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/Mat_verre.mat using Guid(655f371e88e6ae540b86e6483ef8eaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0ef202a02eae5abea27eef7f995641') in 0.032776 seconds 
+  Import took 0.039002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 640.968098 seconds.
+  path: Assets/_TXT/text couloir/RMO 3.png
+  artifactKey: Guid(7eb01d7e1e8f7ee44be559741b2ec9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/RMO 3.png using Guid(7eb01d7e1e8f7ee44be559741b2ec9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06ef72d0f3cfeb84ec8b8e7f6a33c7c') in 0.021310 seconds 
+  Import took 0.028823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.508365 seconds.
+  path: Assets/_FBX/module_sol_droit.fbx
+  artifactKey: Guid(50d109b8fd74ac44e96e7756bafd86f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_sol_droit.fbx using Guid(50d109b8fd74ac44e96e7756bafd86f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5621c1bba71457345ddb473defd99a') in 0.208988 seconds 
+  Import took 0.215309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/_FBX/collonne_bb.fbx
+  artifactKey: Guid(2c1d67835311f244d98a9294972137b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/collonne_bb.fbx using Guid(2c1d67835311f244d98a9294972137b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e70d0f841cd43290043de30c0e4945') in 0.033705 seconds 
+  Import took 0.039917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/_FBX/module_sol_carrefour.fbx
+  artifactKey: Guid(f89c8b2ef516dd142859223efe5d68db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_sol_carrefour.fbx using Guid(f89c8b2ef516dd142859223efe5d68db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b142c2db73b43dd042efa41c5a33b32') in 0.035501 seconds 
+  Import took 0.042167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/_FBX/collonne_bb.fbx
+  artifactKey: Guid(2c1d67835311f244d98a9294972137b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/collonne_bb.fbx using Guid(2c1d67835311f244d98a9294972137b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e70d0f841cd43290043de30c0e4945') in 0.033481 seconds 
+  Import took 0.039997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/_FBX/module_sol_carrefour.fbx
+  artifactKey: Guid(f89c8b2ef516dd142859223efe5d68db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_sol_carrefour.fbx using Guid(f89c8b2ef516dd142859223efe5d68db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b142c2db73b43dd042efa41c5a33b32') in 0.028120 seconds 
+  Import took 0.034602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.016707 seconds.
+  path: Assets/_MAT/defaultMat.mat
+  artifactKey: Guid(447f5cdf588b2484b92c1159fc3e7811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/defaultMat.mat using Guid(447f5cdf588b2484b92c1159fc3e7811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64df5196248892f0a8ebbc1a49d27876') in 0.029747 seconds 
+  Import took 0.036365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/_MAT/lambert1 4.mat
+  artifactKey: Guid(7655a0f2ac7923944a24199b0be0c72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/lambert1 4.mat using Guid(7655a0f2ac7923944a24199b0be0c72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4912dc7de360718127f43718afe3ac5d') in 0.039207 seconds 
+  Import took 0.045368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/_MAT/SOL_ROTONDE.mat
+  artifactKey: Guid(ec4c7ae6deb9dc94588e3687115e4e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/SOL_ROTONDE.mat using Guid(ec4c7ae6deb9dc94588e3687115e4e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f05a3bdf5b1e8355868d4e1b014940') in 0.042007 seconds 
+  Import took 0.049046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/_MAT/lambert1 3.mat
+  artifactKey: Guid(ad0d2f323bc597043a0e125f47caae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/lambert1 3.mat using Guid(ad0d2f323bc597043a0e125f47caae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f66e504906ade679e26c431bfe5c1b') in 0.041918 seconds 
+  Import took 0.048744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/_MAT/lambert1.mat
+  artifactKey: Guid(cf3e36a82b3a3684094fb698f89ac398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/lambert1.mat using Guid(cf3e36a82b3a3684094fb698f89ac398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924a1792f7f92caed9002f6408841c8d') in 0.036245 seconds 
+  Import took 0.042648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/_MAT/lambert1 1.mat
+  artifactKey: Guid(91907d397baddf740bdd44e8a5165e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/lambert1 1.mat using Guid(91907d397baddf740bdd44e8a5165e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab2d5cc2ab95cdde58761dc06d6c2c5') in 0.032143 seconds 
+  Import took 0.039192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/_MAT/lambert1 2.mat
+  artifactKey: Guid(e06d2e5958eee37408c41755a94e232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/lambert1 2.mat using Guid(e06d2e5958eee37408c41755a94e232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9b113d0ec09fb17aeb029031bfd8bd') in 0.032162 seconds 
+  Import took 0.038902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 462.316755 seconds.
+  path: Assets/_TXT/text couloir/RMO 4.png
+  artifactKey: Guid(aa5a00197010fd045b62f8f95398167c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/RMO 4.png using Guid(aa5a00197010fd045b62f8f95398167c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e4dc0343461c308e74ef1a089a64fb') in 0.016834 seconds 
+  Import took 0.024370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 286.352286 seconds.
+  path: Assets/_MAT/PORTE_BB.mat
+  artifactKey: Guid(d99297fc72879244f8f0fc149fb7e41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/PORTE_BB.mat using Guid(d99297fc72879244f8f0fc149fb7e41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7737fab21f671d29416c07379ebe782') in 0.035863 seconds 
+  Import took 0.044036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/_MAT/VASE_BB.mat
+  artifactKey: Guid(3c6653cb3c8724b41a6dc1c44bb769e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/VASE_BB.mat using Guid(3c6653cb3c8724b41a6dc1c44bb769e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a7bcc0d62c4c93ba94ba80cc5a9299') in 0.039985 seconds 
+  Import took 0.046534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.823945 seconds.
+  path: Assets/_PREFAB/MUR_COTE_FBX (1).prefab
+  artifactKey: Guid(472d8c123f3353a418d37f15d4d28202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PREFAB/MUR_COTE_FBX (1).prefab using Guid(472d8c123f3353a418d37f15d4d28202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6c5ab17f0dfc8333746dfef8416b2e') in 0.031713 seconds 
+  Import took 0.038677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/_PREFAB/MUR_COTE_FBX.prefab
+  artifactKey: Guid(63a51b3fdc7bf384f9613aa33ea3144e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PREFAB/MUR_COTE_FBX.prefab using Guid(63a51b3fdc7bf384f9613aa33ea3144e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace632e7db34c4452065e600a16190b7') in 0.027617 seconds 
+  Import took 0.034772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/_PREFAB/SOL2_FBX.prefab
+  artifactKey: Guid(4827f31cb565e2a4a975a8e69b520872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PREFAB/SOL2_FBX.prefab using Guid(4827f31cb565e2a4a975a8e69b520872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cea2ed92703561c10e4d1af425f3960') in 0.032304 seconds 
+  Import took 0.039142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/_PREFAB/SOL3_FBX.prefab
+  artifactKey: Guid(a022069911973a844a3562022ec9f1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PREFAB/SOL3_FBX.prefab using Guid(a022069911973a844a3562022ec9f1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d1364ff9db9b171201721ce3ffbe29') in 0.043731 seconds 
+  Import took 0.050770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/_PREFAB/SOL1_FBX.prefab
+  artifactKey: Guid(bd9f3bdc47fcdea4fb64413e1a448ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PREFAB/SOL1_FBX.prefab using Guid(bd9f3bdc47fcdea4fb64413e1a448ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518c583d7f256b6b521dd01f9e8d102a') in 0.041732 seconds 
+  Import took 0.048685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
   path: Assets/_PREFAB/TABLE_FBX.prefab
   artifactKey: Guid(fd8f0ce49efabe848a56bf36ffa4a437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PREFAB/TABLE_FBX.prefab using Guid(fd8f0ce49efabe848a56bf36ffa4a437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c74feeebcfa63b6df193497316ffdf8') in 0.252414 seconds 
-  Import took 0.480449 seconds .
+Start importing Assets/_PREFAB/TABLE_FBX.prefab using Guid(fd8f0ce49efabe848a56bf36ffa4a437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab3628f707357990e3017535aed376b') in 0.028951 seconds 
+  Import took 0.035884 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.032394 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.580 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3582ms)
-		BeginReloadAssembly (370ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (108ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (117ms)
-		EndReloadAssembly (3153ms)
-			LoadAssemblies (115ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (357ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (406ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3611 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 188.1 MB.
-System memory in use after: 188.4 MB.
+Received Import Request.
+  Time since last request: 0.229262 seconds.
+  path: Assets/_FBX/collonne_bb.fbx
+  artifactKey: Guid(2c1d67835311f244d98a9294972137b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/collonne_bb.fbx using Guid(2c1d67835311f244d98a9294972137b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bc251476a4891b9ea2e91e17b6dc10') in 0.034180 seconds 
+  Import took 0.041094 seconds .
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4489.
-Total: 4.558400 ms (FindLiveObjects: 0.369900 ms CreateObjectMapping: 0.173000 ms MarkObjects: 3.528400 ms  DeleteObjects: 0.486000 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 24.972605 seconds.
+  path: Assets/_TXT/text couloir/collonne_bb_lambert1_BaseColor.png
+  artifactKey: Guid(e69b0aad84a2e2e46ab36dc467372892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/collonne_bb_lambert1_BaseColor.png using Guid(e69b0aad84a2e2e46ab36dc467372892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b614542606f2ce356534e46ebd6c7203') in 0.012148 seconds 
+  Import took 0.018967 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003398 seconds.
+  path: Assets/_TXT/text couloir/collonne_bb_lambert1_BaseColor.png
+  artifactKey: Guid(e69b0aad84a2e2e46ab36dc467372892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/collonne_bb_lambert1_BaseColor.png using Guid(e69b0aad84a2e2e46ab36dc467372892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b614542606f2ce356534e46ebd6c7203') in 0.011836 seconds 
+  Import took 0.019009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.492184 seconds.
+  path: Assets/_TXT/text couloir/RMO 5.png
+  artifactKey: Guid(4cafe2023cd3b4c4aa3e52b4923c6c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/RMO 5.png using Guid(4cafe2023cd3b4c4aa3e52b4923c6c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230be2541cbd6fc4c719f96db34e2093') in 0.012506 seconds 
+  Import took 0.020218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.527227 seconds.
+  path: Assets/_TXT/text couloir/collonne_bb_lambert1_Normal.png
+  artifactKey: Guid(0b2f11ea2f0825248957442cf892f958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TXT/text couloir/collonne_bb_lambert1_Normal.png using Guid(0b2f11ea2f0825248957442cf892f958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd486030da91542b2c305f0323acf1974') in 0.013194 seconds 
+  Import took 0.019220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 719.942827 seconds.
+  path: Assets/_MAT/COLLONNE_TETE.mat
+  artifactKey: Guid(0f50724acef62134297687e7b1a855d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/COLLONNE_TETE.mat using Guid(0f50724acef62134297687e7b1a855d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b13dede7fbfa28fc6c957788f78daaf') in 0.056329 seconds 
+  Import took 0.064192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/_MAT/Tete_BB.mat
+  artifactKey: Guid(3aeeaedf674fd8d418114a19eabf299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/Tete_BB.mat using Guid(3aeeaedf674fd8d418114a19eabf299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008dd6f88ebe65115b390b9a6bf6b9b9') in 0.087455 seconds 
+  Import took 0.094791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/_MAT/VASE_BB.mat
+  artifactKey: Guid(3c6653cb3c8724b41a6dc1c44bb769e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/VASE_BB.mat using Guid(3c6653cb3c8724b41a6dc1c44bb769e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220393f231896a27b790c03d8abc951e') in 0.027993 seconds 
+  Import took 0.034295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.980502 seconds.
+  path: Assets/_FBX/porte_tete_bb.fbx
+  artifactKey: Guid(32859bfa94cf8ee4588bc47ac988320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/porte_tete_bb.fbx using Guid(32859bfa94cf8ee4588bc47ac988320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57d2b2b5479e3569904d2841fd82e38') in 0.034510 seconds 
+  Import took 0.041082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/_FBX/Portedorée_low_poly.obj
+  artifactKey: Guid(f5af48984d4345b48ac61e18dfd811a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/Portedorée_low_poly.obj using Guid(f5af48984d4345b48ac61e18dfd811a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f86f3b3492e1fcb750a01d3c9b5a7a7') in 0.059921 seconds 
+  Import took 0.066066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/_FBX/porte_tete_bb.fbx
+  artifactKey: Guid(32859bfa94cf8ee4588bc47ac988320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/porte_tete_bb.fbx using Guid(32859bfa94cf8ee4588bc47ac988320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57d2b2b5479e3569904d2841fd82e38') in 0.038701 seconds 
+  Import took 0.044852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/_FBX/Vase.fbx
+  artifactKey: Guid(6327ce093adc17c49af619eea6311565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/Vase.fbx using Guid(6327ce093adc17c49af619eea6311565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8d14c0244dabf541d0d30d68e553e0') in 0.046871 seconds 
+  Import took 0.052902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.378122 seconds.
+  path: Assets/_FBX/module_sol_droit.fbx
+  artifactKey: Guid(50d109b8fd74ac44e96e7756bafd86f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_sol_droit.fbx using Guid(50d109b8fd74ac44e96e7756bafd86f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d15272de75490b03ee0b4ac5514107c') in 0.095599 seconds 
+  Import took 0.102940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 310.262433 seconds.
+  path: Assets/_MAT/SOL_COULOIR_DROIT.mat
+  artifactKey: Guid(5a0aca1f0ea955948b6764b7dd92d9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/SOL_COULOIR_DROIT.mat using Guid(5a0aca1f0ea955948b6764b7dd92d9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a4e0cb806314bcc5f03cf01357f844') in 0.038702 seconds 
+  Import took 0.047988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.901297 seconds.
+  path: Assets/_MAT/Vase (2).prefab
+  artifactKey: Guid(a0691208d3cec304793fd0bfdd78c958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/Vase (2).prefab using Guid(a0691208d3cec304793fd0bfdd78c958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9643c2cfa7039323481d9c4a8fa09bf4') in 0.186526 seconds 
+  Import took 0.193288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.715474 seconds.
+  path: Assets/_MAT/SOL_COULOIR_DROIT.mat
+  artifactKey: Guid(5a0aca1f0ea955948b6764b7dd92d9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/SOL_COULOIR_DROIT.mat using Guid(5a0aca1f0ea955948b6764b7dd92d9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bfcaac7f8f51bb84474bb124c66fcf') in 0.044380 seconds 
+  Import took 0.051941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.773696 seconds.
+  path: Assets/_FBX/module_sol_carrefour.fbx
+  artifactKey: Guid(f89c8b2ef516dd142859223efe5d68db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_sol_carrefour.fbx using Guid(f89c8b2ef516dd142859223efe5d68db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e047d5f883acc49da9ef177fd6ed5164') in 0.197763 seconds 
+  Import took 0.205086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.451610 seconds.
+  path: Assets/_FBX/module_sol_carrefour.fbx
+  artifactKey: Guid(f89c8b2ef516dd142859223efe5d68db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/module_sol_carrefour.fbx using Guid(f89c8b2ef516dd142859223efe5d68db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08baabd14ba63609636575f72b38fa5b') in 0.035993 seconds 
+  Import took 0.042376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1923.318019 seconds.
+  path: Assets/_PREFAB/mur_rotonde.prefab
+  artifactKey: Guid(f0d44f181f7cbda48a1c7af4bb2c353e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PREFAB/mur_rotonde.prefab using Guid(f0d44f181f7cbda48a1c7af4bb2c353e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d235f6735bef9734c3e08000df5fc2b') in 0.118063 seconds 
+  Import took 0.127166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 847.228577 seconds.
+  path: Assets/_PREFAB/module_mur_fermé.prefab
+  artifactKey: Guid(2b6994d45aa638d409255b8ea84305a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PREFAB/module_mur_fermé.prefab using Guid(2b6994d45aa638d409255b8ea84305a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f83fc60d8c44c42991e8e5102510a3c') in 0.585422 seconds 
+  Import took 0.593132 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
