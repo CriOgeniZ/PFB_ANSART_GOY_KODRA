@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 2234467027993347374}
   - component: {fileID: 2931192966759500427}
   - component: {fileID: 1101489859475947073}
+  - component: {fileID: 5121912853148110799}
   m_Layer: 0
   m_Name: "module_mur_ferm\xE9 1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &2234467027993347374
 Transform:
@@ -81,3 +82,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5121912853148110799
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461905440889479060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6774816221303172536, guid: 86c999a699fd6f54cbba065aad6e7ce3, type: 3}

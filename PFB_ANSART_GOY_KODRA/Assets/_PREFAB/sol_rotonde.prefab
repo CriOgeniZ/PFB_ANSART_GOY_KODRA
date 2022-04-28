@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 7517342149329929315}
   - component: {fileID: 6916734417753787334}
   - component: {fileID: 8654187885219430156}
+  - component: {fileID: 8887184824338071471}
   m_Layer: 0
   m_Name: sol_rotonde
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &7517342149329929315
 Transform:
@@ -82,3 +83,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8887184824338071471
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7140780979589848793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6232969361893076948, guid: 6e3b931b0a9c5434e91c8dddf6a653f9, type: 3}
