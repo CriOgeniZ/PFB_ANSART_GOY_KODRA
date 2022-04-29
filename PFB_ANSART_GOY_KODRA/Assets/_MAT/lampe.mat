@@ -39,7 +39,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_134AA6BC:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 14ea1cd0e81885649b701513f0f50b42, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_170A6BD3:
@@ -47,11 +47,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_240B604C:
-        m_Texture: {fileID: 2800000, guid: 7e57c976cfd2358468351b5d39510fca, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5c21af354051532408b0b6796771941f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_4C5CD0BB:
-        m_Texture: {fileID: 2800000, guid: 625e0d8d5fa0780429a976a620740c71, type: 3}
+        m_Texture: {fileID: 2800000, guid: 44b05cb2f512250448bd4420f5edef83, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
@@ -150,9 +150,9 @@ Material:
     - Boolean_BCDEA200: 1
     - Vector1_11A080FA: 20
     - Vector1_684FCF52: 0
-    - Vector1_7AC27371: 1
+    - Vector1_7AC27371: 0.65
     - Vector1_A2C57892: 1
-    - Vector1_F05647B9: 1
+    - Vector1_F05647B9: 1.65
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
