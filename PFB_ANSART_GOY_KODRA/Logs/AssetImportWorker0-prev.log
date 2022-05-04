@@ -15,11 +15,11 @@ D:/DRIVE/03_3D/03_GA3/00_PFB/GIT/PFB_ANSART_GOY_KODRA/PFB_ANSART_GOY_KODRA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59973
+51203
 Successfully changed project path to: D:/DRIVE/03_3D/03_GA3/00_PFB/GIT/PFB_ANSART_GOY_KODRA/PFB_ANSART_GOY_KODRA
 D:/DRIVE/03_3D/03_GA3/00_PFB/GIT/PFB_ANSART_GOY_KODRA/PFB_ANSART_GOY_KODRA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 84.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path D:/UNITY/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'D:/UNITY/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UNITY/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/UNITY/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UNITY/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001168 seconds.
+Registered in 0.001306 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.323 seconds
+- Completed reload, in  2.253 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2323ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (2253ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (476ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (456ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (171ms)
+			SetupTypeCache (158ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (197ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (199ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (8ms)
-				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadAttributes (82ms)
 				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,35 +73,35 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004646 seconds.
+Registered in 0.004703 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 80.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.521 seconds
+- Completed reload, in  1.505 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1522ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (1506ms)
+		BeginReloadAssembly (158ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1306ms)
-			LoadAssemblies (114ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1291ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (358ms)
+			SetupTypeCache (346ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (80ms)
+			RebuildScriptCaches (78ms)
 			SetupLoadedEditorAssemblies (651ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (333ms)
-				ProcessInitializeOnLoadMethodAttributes (148ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (330ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3868 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 187.1 MB.
 System memory in use after: 187.3 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4314.
-Total: 3.721600 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.149300 ms MarkObjects: 3.177600 ms  DeleteObjects: 0.064400 ms)
+Total: 3.719700 ms (FindLiveObjects: 0.329400 ms CreateObjectMapping: 0.154900 ms MarkObjects: 3.170800 ms  DeleteObjects: 0.063700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,140 +132,76 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/_TXT/TXT_FAUTEUIL
-  artifactKey: Guid(ddca5fff95725c94eac78d83ec7c4942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/TXT_FAUTEUIL using Guid(ddca5fff95725c94eac78d83ec7c4942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd839b0c49317140254eead6fc0f1bb0') in 0.013088 seconds 
-  Import took 0.018564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.138954 seconds.
-  path: Assets/_TXT/TXT_FAUTEUIL/FAUTEUIL_BB_Base_color.png
-  artifactKey: Guid(2624fbf955f37c24f9de247d1bf25c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/TXT_FAUTEUIL/FAUTEUIL_BB_Base_color.png using Guid(2624fbf955f37c24f9de247d1bf25c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad421f0a5cbed328a93d9b0d45e7cc9') in 0.203849 seconds 
-  Import took 0.209349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/_TXT/TXT_FAUTEUIL/FAUTEUIL_BB_RMO.png
-  artifactKey: Guid(48bc6e590bff5dd42a3eb715b2e148bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/TXT_FAUTEUIL/FAUTEUIL_BB_RMO.png using Guid(48bc6e590bff5dd42a3eb715b2e148bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb96282bbac27bf7aeb56094643dcad') in 0.012371 seconds 
-  Import took 0.018170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/_TXT/TXT_FAUTEUIL/FAUTEUIL_BB_Normal_DirectX.png
-  artifactKey: Guid(54520baf4b4b515429595ce3fa139267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/TXT_FAUTEUIL/FAUTEUIL_BB_Normal_DirectX.png using Guid(54520baf4b4b515429595ce3fa139267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4b3be2be06f41be2972cb88e57d047') in 0.030873 seconds 
-  Import took 0.036762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.425363 seconds.
-  path: Assets/_TXT/TXT_FAUTEUIL/FAUTEUIL_BB_Normal_DirectX.png
-  artifactKey: Guid(54520baf4b4b515429595ce3fa139267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/TXT_FAUTEUIL/FAUTEUIL_BB_Normal_DirectX.png using Guid(54520baf4b4b515429595ce3fa139267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7a5c6eeed9bfd56a02be15964170ae') in 0.058027 seconds 
-  Import took 0.064446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.070903 seconds.
-  path: Assets/_MAT/MAT_FAUTEUIL.mat
-  artifactKey: Guid(168d365b40615d748ad3d172b7f52a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MAT/MAT_FAUTEUIL.mat using Guid(168d365b40615d748ad3d172b7f52a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+  path: Assets/_MAT/MAT_VERRE 2.mat
+  artifactKey: Guid(0d6ea6a6791617d4dbb5a39863f9d836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/MAT_VERRE 2.mat using Guid(0d6ea6a6791617d4dbb5a39863f9d836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
- -> (artifact id: 'f941ef3be4e381d8ef96dda952b6b7e7') in 1.644605 seconds 
-  Import took 1.653469 seconds .
+ -> (artifact id: 'd47d5efef4f2586cf594ddf8a36a9390') in 1.624859 seconds 
+  Import took 1.632151 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.704409 seconds.
-  path: Assets/_MAT/MAT_FAUTEUIL.mat
-  artifactKey: Guid(168d365b40615d748ad3d172b7f52a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MAT/MAT_FAUTEUIL.mat using Guid(168d365b40615d748ad3d172b7f52a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2688313290479abadda04c34fe36538c') in 0.041814 seconds 
-  Import took 0.050959 seconds .
+  Time since last request: 1537.183093 seconds.
+  path: Assets/_MAT/Mat_verre 1.mat
+  artifactKey: Guid(70fae19e3da5483458b0b41b34d9961f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/Mat_verre 1.mat using Guid(70fae19e3da5483458b0b41b34d9961f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73fc91fb55f335a3916262ed0588bda') in 0.414843 seconds 
+  Import took 0.423464 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 564.612788 seconds.
-  path: Assets/_TXT/TXT_ETAGERE
-  artifactKey: Guid(2db4497254e38f94ba1f59065bfc72fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/TXT_ETAGERE using Guid(2db4497254e38f94ba1f59065bfc72fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e1913d4655632bd39efa074349b212') in 0.005439 seconds 
-  Import took 0.025813 seconds .
+  Time since last request: 0.000369 seconds.
+  path: Assets/_MAT/MAT_VERRE 2.mat
+  artifactKey: Guid(0d6ea6a6791617d4dbb5a39863f9d836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/MAT_VERRE 2.mat using Guid(0d6ea6a6791617d4dbb5a39863f9d836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175ca00dec075611de8248c5b78f9c21') in 0.486699 seconds 
+  Import took 0.494659 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.981521 seconds.
-  path: Assets/_TXT/TXT_ETAGERE/ETAGERE_Base_color.png
-  artifactKey: Guid(595b90534c7d2a940811cbdc6d523787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/TXT_ETAGERE/ETAGERE_Base_color.png using Guid(595b90534c7d2a940811cbdc6d523787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ee2c138cc3533e5d3665788dadc4ec') in 0.012952 seconds 
-  Import took 0.079029 seconds .
+  Time since last request: 242.350818 seconds.
+  path: Assets/_FBX/bouteille.fbx
+  artifactKey: Guid(1337ea67aea47cc4e9755453a5011788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/bouteille.fbx using Guid(1337ea67aea47cc4e9755453a5011788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291f9b7a8f54ff840736d66feecb600f') in 0.270603 seconds 
+  Import took 0.277417 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/_TXT/TXT_ETAGERE/ETAGERE_Normal_DirectX.png
-  artifactKey: Guid(b7792bd98fdb37547a08f6788475fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/TXT_ETAGERE/ETAGERE_Normal_DirectX.png using Guid(b7792bd98fdb37547a08f6788475fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99814a854eb6e635c732410139e2813') in 0.014394 seconds 
-  Import took 0.024437 seconds .
+  Time since last request: 0.003562 seconds.
+  path: Assets/_FBX/bouteille.fbx
+  artifactKey: Guid(1337ea67aea47cc4e9755453a5011788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_FBX/bouteille.fbx using Guid(1337ea67aea47cc4e9755453a5011788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291f9b7a8f54ff840736d66feecb600f') in 0.073472 seconds 
+  Import took 0.079615 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/_TXT/TXT_ETAGERE/ETAGERE_RMO.png
-  artifactKey: Guid(3ee629823baedef4ea5904170c07aef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/TXT_ETAGERE/ETAGERE_RMO.png using Guid(3ee629823baedef4ea5904170c07aef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50bc4d3c4eb50b926dc7a6a48ec0c23') in 0.015130 seconds 
-  Import took 0.030781 seconds .
+  Time since last request: 13.579544 seconds.
+  path: Assets/_PREFAB/bouteille.prefab
+  artifactKey: Guid(161944db91f0bb84d8d2583a58f05574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PREFAB/bouteille.prefab using Guid(161944db91f0bb84d8d2583a58f05574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33953da299bdc98bc2cfc8bf0808654') in 0.035234 seconds 
+  Import took 0.041815 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.200064 seconds.
-  path: Assets/_TXT/TXT_ETAGERE/ETAGERE_Normal_DirectX.png
-  artifactKey: Guid(b7792bd98fdb37547a08f6788475fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TXT/TXT_ETAGERE/ETAGERE_Normal_DirectX.png using Guid(b7792bd98fdb37547a08f6788475fbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f92783f79e653ebb9c34a4ca11420d9') in 0.032117 seconds 
-  Import took 0.061454 seconds .
+  Time since last request: 0.004844 seconds.
+  path: Assets/_PREFAB/bouteille.prefab
+  artifactKey: Guid(161944db91f0bb84d8d2583a58f05574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PREFAB/bouteille.prefab using Guid(161944db91f0bb84d8d2583a58f05574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33953da299bdc98bc2cfc8bf0808654') in 0.025674 seconds 
+  Import took 0.031907 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.049665 seconds.
-  path: Assets/_MAT/MAT_ETAGERE.mat
-  artifactKey: Guid(1d3a74f1f87c0e34c8a60e140e4d0032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MAT/MAT_ETAGERE.mat using Guid(1d3a74f1f87c0e34c8a60e140e4d0032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5980388bcedcd6196091b52dc8ba3548') in 0.036653 seconds 
-  Import took 0.112102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 275.203129 seconds.
-  path: Assets/_FBX/ETAGERE_FBX.fbx
-  artifactKey: Guid(f36bd8bbc8cc5f44d8ac237d6274ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_FBX/ETAGERE_FBX.fbx using Guid(f36bd8bbc8cc5f44d8ac237d6274ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfae1c43b5de68417f3d832ec9f5cde') in 0.360147 seconds 
-  Import took 0.383352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.997765 seconds.
-  path: Assets/_PREFAB/ETAGERE_FBX.prefab
-  artifactKey: Guid(f3cca3c9c05d54d4cbbb9d517ea3ebfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_PREFAB/ETAGERE_FBX.prefab using Guid(f3cca3c9c05d54d4cbbb9d517ea3ebfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600f403a8be753b5857bb150f7e71925') in 0.040926 seconds 
-  Import took 0.070585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.210054 seconds.
-  path: Assets/_MAT/MAT_ETAGERE.mat
-  artifactKey: Guid(1d3a74f1f87c0e34c8a60e140e4d0032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_MAT/MAT_ETAGERE.mat using Guid(1d3a74f1f87c0e34c8a60e140e4d0032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5509e5737f97f8a7b1bd222247c01e4b') in 0.033528 seconds 
-  Import took 0.047478 seconds .
+  Time since last request: 124.657285 seconds.
+  path: Assets/_MAT/MAT_VERRE 2.mat
+  artifactKey: Guid(0d6ea6a6791617d4dbb5a39863f9d836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MAT/MAT_VERRE 2.mat using Guid(0d6ea6a6791617d4dbb5a39863f9d836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc1985cc5f43f540eae3e61b542cb31') in 0.041711 seconds 
+  Import took 0.048749 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
