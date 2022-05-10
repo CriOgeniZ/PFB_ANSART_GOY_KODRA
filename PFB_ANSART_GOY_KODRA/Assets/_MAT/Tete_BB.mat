@@ -149,9 +149,9 @@ Material:
     m_Floats:
     - Boolean_BCDEA200: 0
     - Vector1_11A080FA: 20
-    - Vector1_684FCF52: 1
+    - Vector1_684FCF52: 0.372
     - Vector1_7AC27371: 1
-    - Vector1_A2C57892: 1.156
+    - Vector1_A2C57892: 1.5
     - Vector1_F05647B9: 0.67
     - _AORemapMax: 1
     - _AORemapMin: 0

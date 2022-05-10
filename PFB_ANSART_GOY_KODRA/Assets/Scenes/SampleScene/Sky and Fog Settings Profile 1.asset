@@ -141,7 +141,7 @@ MonoBehaviour:
     showEyeDropper: 1
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1.7568628, g: 2, b: 1.7254902, a: 1}
+    m_Value: {r: 2.2941563, g: 2.6082373, b: 2.266845, a: 1}
     hdr: 1
     showAlpha: 0
     showEyeDropper: 1
@@ -256,7 +256,7 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 5.13
+    m_Value: 1
   multiplier:
     m_OverrideState: 0
     m_Value: 1
@@ -403,7 +403,7 @@ MonoBehaviour:
     showEyeDropper: 0
   zenithTint:
     m_OverrideState: 1
-    m_Value: {r: 0.6734603, g: 0.8650977, b: 0.8867924, a: 1}
+    m_Value: {r: 0.8236383, g: 0.8980658, b: 0.9056604, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
