@@ -42,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_170A6BD3:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 01ae436c571a6cb4cb5a3abcf111c3ef, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_240B604C:
@@ -147,7 +147,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_BCDEA200: 1
-    - Vector1_11A080FA: 1
+    - Vector1_11A080FA: 20
     - Vector1_684FCF52: 1
     - Vector1_7AC27371: 1
     - Vector1_A2C57892: 1.5

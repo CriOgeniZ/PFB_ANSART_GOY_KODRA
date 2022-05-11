@@ -133,8 +133,8 @@ Material:
     - Boolean_BCDEA200: 1
     - Vector1_684FCF52: 1
     - Vector1_7AC27371: 1
-    - Vector1_A2C57892: 1.5
-    - Vector1_F05647B9: 0
+    - Vector1_A2C57892: 0.68
+    - Vector1_F05647B9: 1.79
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
