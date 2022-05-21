@@ -9,12 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3543340016344790497}
+  - component: {fileID: 5240677195940221929}
   m_Layer: 0
   m_Name: TourVisage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 65
   m_IsActive: 1
 --- !u!4 &3543340016344790497
 Transform:
@@ -25,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 6289319424754389705}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.88809, z: 1}
   m_Children:
   - {fileID: 7190901925227817242}
   - {fileID: 6953325437402102953}
@@ -46,6 +47,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &5240677195940221929
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6289319424754389705}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &31585605563917156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53,9 +68,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (11)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -115,9 +142,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (1)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -177,9 +216,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -239,9 +290,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (5)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -301,9 +364,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (10)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -363,9 +438,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (4)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -425,9 +512,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (9)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -487,9 +586,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (13)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -549,9 +660,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (3)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -611,9 +734,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (7)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -673,9 +808,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (8)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -735,9 +882,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (14)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -797,9 +956,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (6)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -859,9 +1030,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (12)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -921,9 +1104,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (2)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder
@@ -983,9 +1178,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3543340016344790497}
     m_Modifications:
+    - target: {fileID: 3783183148025075158, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_Name
       value: "VisageAssembl\xE9 (15)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684601705050252917, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697773604864776468, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7022110694227830257, guid: 23fb4941d40399a42a325ceb3d9cef69, type: 3}
       propertyPath: m_RootOrder

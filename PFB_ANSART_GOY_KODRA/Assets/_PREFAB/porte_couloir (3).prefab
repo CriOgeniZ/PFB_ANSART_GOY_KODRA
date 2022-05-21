@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8008634711828614913}
   - component: {fileID: 3496187598038037045}
   - component: {fileID: 8342819837184974427}
+  - component: {fileID: 8571025374773978069}
   m_Layer: 0
   m_Name: polySurface350
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8571025374773978069
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728307444849166174}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3960438689523207741, guid: 489fc29574cad46478f8a6962465a79a, type: 3}
 --- !u!1 &3727967662540397630
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,7 +354,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6080226909660301059}
   m_LocalRotation: {x: -0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.966818, y: 2.999, z: -14.215861}
+  m_LocalPosition: {x: 24.966818, y: 2.914, z: -14.215861}
   m_LocalScale: {x: -0.67114097, y: 0.67114097, z: 0.67114097}
   m_Children:
   - {fileID: 6689948064089631377}
@@ -357,6 +372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6199572797962683092}
   - component: {fileID: 4241539505935397999}
+  - component: {fileID: 6585325351166249848}
   m_Layer: 0
   m_Name: porte_couloir (3)
   m_TagString: Untagged
@@ -371,7 +387,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6720107524983216238}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: -1.49, y: 1.49, z: 1.49}
   m_Children:
@@ -399,3 +415,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!64 &6585325351166249848
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720107524983216238}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
